@@ -17,3 +17,4 @@
       chdir: /home/vagrant/hello-world
   - name: run container with my image
     command: docker run -d --name my-hello-world-container -p 8080:8080 my-hello-world
+
